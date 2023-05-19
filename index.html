@@ -21,16 +21,17 @@
     <P id="result"></P>
     
 <script>
-    let number1=document.getElementById("number1").value;
-    let number2=document.getElementById("number2").value;
-   
-    let n1=parseInt(number1);
-    let n2=parseInt(number2);
+    
 
     function sum(){
-       let res=n1+n2;
+        let number1=document.getElementById("number1").value;
+        let number2=document.getElementById("number2").value;
+   
+         let n1=parseInt(number1);
+         let n2=parseInt(number2);
+         let res=n1+n2;
        console.log(res);
-       document.getElementById("result").innerHTML=res;
+       document.getElementById("result").textContent=res;
     }
 
     let name="hello Sir's \n How r u?";
